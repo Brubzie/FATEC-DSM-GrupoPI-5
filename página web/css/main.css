@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .debug {
     border: 2px dashed cyan;
     outline: 2px dashed magenta;
@@ -35,6 +39,7 @@ main {
         url(../img/evento.jpg) center no-repeat
     ;
     background-size: cover;
+    border-radius: 0px 0px 50px 50px;
 }
 main h1 {
     font-weight: 900;
@@ -50,6 +55,18 @@ h3 {
     font-size: 0.875em;
 }
 
+.lista {
+    border: none;
+}
+
+.lista:hover {
+    color: #66FFC2;
+}
+
+/* Scroll Reveal */
+/* .area-1 {
+    visibility: hidden;
+} */
 
 /* xs and down */
 @media (max-width: 575.98px) {
